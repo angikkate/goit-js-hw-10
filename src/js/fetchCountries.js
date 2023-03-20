@@ -1,4 +1,5 @@
 const BASE_URL = 'https://restcountries.com/v3.1/name/';
+
 const searchParams = 'fields=name,capital,population,flags,languages';
 
 export const fetchCountries = (name) => {
